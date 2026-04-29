@@ -1,0 +1,24 @@
+{
+  "name": "back-biblioteca-redis",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "maikieldevoradordepenes",
+  "license": "ISC",
+  "description": "back de libreria con redis",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.58.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.20.0",
+    "nodemon": "^3.1.10",
+    "redis": "^5.8.2",
+    "response-time": "^2.3.4"
+  }
+}
